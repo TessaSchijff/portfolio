@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Modal, ModalBody, Button, ModalHeader, ModalFooter} from 'reactstrap';
 
 class Portfolio extends Component {
+  toggle() {
+    alert('test');
+  }
   render() {
     if (this.props.data) {
         var portfolio = this.props.data.projects.map((project) => {
