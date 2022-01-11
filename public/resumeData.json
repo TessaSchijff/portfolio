@@ -11,19 +11,7 @@
       "street": "Dadelklaverstraat 4",
       "city": "Almere",
       "zip": "1314 PX"
-    },
-    "social":[
-      {
-        "name": "linkedin",
-        "url": null,
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/tessaschijff",
-        "className": "fa fa-github"
-      }
-    ]
+    }
   },
   "resume":{
     "education":[
