@@ -1,14 +1,14 @@
 {
   "main": {
-    "name":"Tess",
-    "occupation":"Student Communication Multimedia Design",
-    "description":"Momenteel ben ik op zoek naar een stageplek",
-   "image":"profilepic.jpg",
+    "name": "Tessa",
+    "occupation": "Student Communication Multimedia Design",
+    "description": "Momenteel ben ik op zoek naar een stageplek",
+   "image": "profilepic.jpg",
     "email": "Tessa@Schijff.nl",
     "phone": "0644878886",
     "address":{
-      "street":"Dadelklaverstraat 4",
-      "city":"Almere",
+      "street": "Dadelklaverstraat 4",
+      "city": "Almere",
       "zip": "1314 PX"
     },
     "social":[
