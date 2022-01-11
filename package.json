@@ -1,6 +1,6 @@
 {
-  "name": "react-landing-page",
-  "homepage": "http://tessaschijff.github.io/react-landing-page",
+  "name": "portfolio",
+  "homepage": "http://tessaschijff.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
