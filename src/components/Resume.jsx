@@ -9,7 +9,7 @@ class Resume extends Component {
             <div key={edu.school} className="row item">
             <div  className="twelve columns">
                <h3>{edu.opleiding}</h3>
-               <p className="info"><em>{edu.niveau}</em><span>&bull;</span>{edu.school} <span>&bull;</span> <em className="date">{edu.graduated}</em></p>
+               <p className="info"><em>{edu.niveau}</em><span>&bull;</span>{edu.school} <span>&bull;</span> <em className="date">{edu.afgestudeerdDatum}</em></p>
                <p> {edu.over} </p>
             </div>
          </div> 
