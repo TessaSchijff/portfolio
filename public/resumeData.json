@@ -29,15 +29,15 @@
         "niveau": "MBO-4",
         "afgestudeerd": true,
         "afgestudeerdDatum": "februari 2013",
-        "over": ""
+        "over": null
       },
       {
         "school": "Nimeto Utrecht",
         "opleiding": "Vormgever Reclame presentatie & Communicatie",
         "niveau": "MBO-4",
         "afgestudeerd":false,
-        "afgestudeerdDatum": "februari 2013",
-        "over": ""
+        "afgestudeerdDatum": null,
+        "over": null
       }
     ],
     "work":[
