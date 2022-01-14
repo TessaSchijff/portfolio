@@ -65,7 +65,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h2 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 24px/2em 'librebaskerville-regular', serif;
    color: #0F3757;
    margin: 0 auto;
    width: 60%;
@@ -304,7 +304,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #0FB200;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
