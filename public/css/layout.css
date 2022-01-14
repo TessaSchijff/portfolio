@@ -17,7 +17,8 @@
    i. Footer
 
 ===================================================================== */
-
+.allekleurenvantess {
+   color:#FF6A00 #FFE9D9 #0f3757 #1E6EAE #D3E7F8 #0E410B #1C8316 #2EDA25 #EAFBE9; }
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -102,7 +103,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color:#FF6A00; }
+header .scrolldown a:hover { color:#0f3757; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -304,7 +305,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #0FB200;
+  	background: #0f3757;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
