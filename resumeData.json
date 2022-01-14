@@ -251,11 +251,11 @@
     "testimonials":[
       {
         "text": "Mensen omschrijven mij als een energieke, ietwat perfectionistische team-player. Studiegenoten kloppen graag bij mij aan voor kritische feedback. Ik ben leergierig en wil dingen graag tot in de kern begrijpen. ",
-        "user": "iets"
+        "user": null
       },
       {
         "text": "Als multimedia designer interesseer ik mij bijzonder in toegankelijkheid en data(verwerking). Ook vind ik het heel leuk om te tekenen, dit doe ik graag om een concept uit te leggen of complexe materie overzichtelijk en visueel te maken.",
-        "user": "lalala"
+        "user": null
       }
     ]
   }
