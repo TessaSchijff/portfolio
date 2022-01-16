@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-import {Modal, ModalBody, Button, ModalHeader, ModalFooter} from 'reactstrap';
+import { Modal } from './Modal';
 
 class Portfolio extends Component {
-  toggle() {
-    alert('test');
+  toggle(e) {
+    e.preventDefault()
+    document.getElementById(e.currentTarget.name)
+      .classList
+      .toggle('mfp-hide')
   }
   render() {
     if (this.props.data) {
         var portfolio = this.props.data.projects.map((project) => {
-            let imageUrl = 'images/portfolio/' + project.image;
-            let modalUrl = '#' + project.modal;
             return (
                 <div key={project.title}>
                     <div className="columns portfolio-item">
                         <div className="item-wrap">
-
-                            <a onClick={this.toggle} href={modalUrl} title={project.title}>
-                                <img alt={project.title} src={imageUrl}/>
+                            <a onClick={this.toggle} name={project.modal} title={project.title}>
+                                <img alt={project.title} src={`images/portfolio/${project.image}`} />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>{project.title}</h5>
                                         <p>{project.category}</p>
                                     </div>
                                 </div>
-                                
                             </a>
                         </div>
                     </div>
@@ -46,28 +45,13 @@ class Portfolio extends Component {
            </div>
   
            
-            {/* MODALs-------------------------------------------------------------- */}
+            {this.props.data && this.props.data.projects.map(project => <Modal {...project} />)}
   
-           {/* <div id="modal-01" className="popup-modal mfp-hide">
-  
-                <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-  
-                <div className="description-box">
-                    <h4>Coffee Cup</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                 <span className="categories"><i className="fa fa-tag"></i>Branding, Webdesign</span>
-                </div>
-  
-              <div className="link-box">
-                 <a href="http://www.behance.net">Details</a>
-                   <a className="popup-modal-dismiss">Close</a>
-              </div>
-  
-            </div>
+           {/* 
   
            <div id="modal-02" className="popup-modal mfp-hide">
   
-                <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+                <img className="scale-with- grid" src="images/portfolio/modals/m-console.jpg" alt="" />
   
                 <div className="description-box">
                     <h4>Console</h4>
